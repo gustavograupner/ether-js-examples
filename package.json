@@ -6,7 +6,8 @@
   "scripts": {
     "accountBalance": "node -r dotenv/config ./examples/1-account-balance.js",
     "readSmartContract": "node -r dotenv/config ./examples/2-read-smart-contracts.js",
-    "sendSignedTransaction": "node -r dotenv/config ./examples/3-send-signed-transactions.js"
+    "sendSignedTransaction": "node -r dotenv/config ./examples/3-send-signed-transactions.js",
+    "writeContract": "node -r dotenv/config ./examples/4-write-contract.js"
   },
   "dependencies": {
     "dotenv": "^16.0.0",
