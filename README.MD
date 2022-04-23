@@ -28,3 +28,6 @@ Examples using EthersJS library to communicate with the Ethererum blockchain. In
 - **4-write-contract transfer amount from one account to another**: transfer ChainLink token (LINK) from one account to another using the Chainlink contract. To receive some LINK tokens to make this test, go to the website https://faucets.chain.link/ choose the network and paste your account address.
 `yarn writeContract`
 > The link below shows the result of the transaction. https://kovan.etherscan.io/tx/0x4fc0550057783d18b832b4f8d058b484154197ce930a7a6a2d551e5adada964e
+
+- **5-contract-event-stream get events emited from specific blocks**: get events emitted from 10 latest blocks when some "Transfer" event happen. In this example is used the mainnet of Ethereum.
+`yarn contractEvents`
